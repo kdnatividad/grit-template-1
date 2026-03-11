@@ -62,18 +62,16 @@ export default function Footer() {
           className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-[#0e132b]/90" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0e132b] via-transparent to-[#0e132b]/95" />
+        <div className="absolute inset-0 bg-linear-to-b from-[#0e132b] via-transparent to-[#0e132b]/95" />
       </div>
 
       {/* Red top border */}
-      <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#DA1D3A]" />
+      <div className="absolute top-0 left-0 right-0 h-0.75 bg-[#DA1D3A]" />
 
       <div className="relative z-10">
         {/* #BUILTBYGRIT */}
         <div className="w-full overflow-hidden border-b border-white/10 px-6 py-10 md:py-16">
-          <h2
-            className="font-display font-black text-white/90 leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-center"
-          >
+          <h2 className="font-display font-black text-white/90 leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-center">
             #BUILTBYGRIT
           </h2>
         </div>
