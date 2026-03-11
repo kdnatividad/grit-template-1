@@ -1,9 +1,9 @@
-export default function Hero_Merch() {
+export default function Hero_Contact() {
   return (
     <section className="relative w-full h-[60vh] min-h-100 overflow-hidden flex items-end">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/placeholders/offer3.jpg')" }}
+        style={{ backgroundImage: "url('/placeholders/offer4.jpg')" }}
       />
       <div className="absolute inset-0 bg-[#0e132b]/80" />
       <div className="absolute inset-0 bg-linear-to-t from-[#0e132b] via-transparent to-transparent" />
@@ -13,19 +13,18 @@ export default function Hero_Merch() {
         <div className="flex items-center gap-3 mb-4">
           <div className="w-8 h-px bg-[#DA1D3A]" />
           <span className="font-display tracking-[0.4em] text-[#DA1D3A]">
-            GRIT COLLECTION
+            GET IN TOUCH
           </span>
         </div>
         <h1
           className="font-display font-black text-white leading-none"
           style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
         >
-          WEAR THE
+          LET'S
           <br />
-          <span className="text-[#DA1D3A]">GRIND.</span>
+          <span className="text-[#DA1D3A]">TALK.</span>
         </h1>
       </div>
     </section>
   );
 }
-  
