@@ -108,7 +108,7 @@ export default function Footer() {
             <p className="font-display font-black text-white text-sm tracking-widest">
               READY TO START?
             </p>
-            <p className="text-white/40 text-xs leading-relaxed max-w-xs">
+            <p className="text-white/90 text-xs leading-relaxed max-w-xs">
               Join hundreds of athletes already training with Grit.
             </p>
             <a
@@ -123,7 +123,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3">
-            <p className="font-display text-[10px] tracking-widest text-white/40 text-center md:text-left">
+            <p className="font-display text-[10px] tracking-widest text-white/70 text-center md:text-left">
               © {year} GRIT DIGITAL PERFORMANCE. ALL RIGHTS RESERVED.
             </p>
             <div className="flex items-center gap-6">
@@ -131,7 +131,7 @@ export default function Footer() {
                 <a
                   key={item}
                   href="#"
-                  className="font-display text-[10px] tracking-widest text-white/40 hover:text-white/70 transition-colors duration-200"
+                  className="font-display text-[10px] tracking-widest text-white/70 hover:text-white/90 transition-colors duration-200"
                 >
                   {item}
                 </a>
